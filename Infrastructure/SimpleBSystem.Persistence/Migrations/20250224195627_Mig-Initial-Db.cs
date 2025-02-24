@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SimpleBSystem.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class miginitial : Migration
+    public partial class MigInitialDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

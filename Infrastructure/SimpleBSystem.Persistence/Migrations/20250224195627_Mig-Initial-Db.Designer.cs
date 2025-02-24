@@ -12,8 +12,8 @@ using SimpleBSystem.Persistence.Context;
 namespace SimpleBSystem.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250224072833_mig-initial")]
-    partial class miginitial
+    [Migration("20250224195627_Mig-Initial-Db")]
+    partial class MigInitialDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
